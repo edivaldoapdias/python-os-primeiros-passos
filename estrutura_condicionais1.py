@@ -1,8 +1,8 @@
 CONTA_NORMAL = False
-CONTA_UNIVERSITARIA = True
+CONTA_UNIVERSITARIA = False
 
 saldo = 2000
-saque = 10
+saque = 500
 cheque_especial = 450
 
 if CONTA_NORMAL:
@@ -24,5 +24,8 @@ elif CONTA_UNIVERSITARIA:
         print("Saldo Insuficiente")
 
 else:
-    ("Sistema não reconhece a transação")
+        print("Sistema não reconhecido")           
+
+  
+    
 
